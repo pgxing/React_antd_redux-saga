@@ -1,4 +1,5 @@
 import React from 'react'
-export default function App(){
+ function App(){
     return <div>欢迎</div>
 }
+export default App
