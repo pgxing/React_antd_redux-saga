@@ -5,11 +5,11 @@ let formHeader = { headers: { 'Content-Type': 'multipart/form-data' } },
     jsonHeader = { headers: { 'Content-Type': 'application/json' } },
     wwwHeader = { headers: { 'Content-Type': 'application/x-www-form-urlencoded' } };
 // 登录
-const loginUrl = "/users/login";
+const getUserDataUrl = "/api/productCollections";
 
 
 
-export const login = (param) => get(loginUrl, param);
+export const getUserDataApi = (param) => get(getUserDataUrl, param);
 
 
 

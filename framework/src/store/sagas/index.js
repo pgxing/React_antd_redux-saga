@@ -1,7 +1,7 @@
 import { fork } from 'redux-saga/effects';
-// import homeManage from './homeManage';
+import appManage from './appManage';
 
 export default function* rootSaga() {
   // 合并saga
-//   yield fork(homeManage);
+  yield fork(appManage);
 }

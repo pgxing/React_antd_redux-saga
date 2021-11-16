@@ -1,10 +1,9 @@
 import { combineReducers } from "redux";
-
-// import homeManage from './homeManage';
+import appManage from './appManage';
 
 
 // 组合reducer避免名称污染
 const rootReducer = combineReducers({
-    // homeManage
+    appManage
 });
 export default rootReducer;
