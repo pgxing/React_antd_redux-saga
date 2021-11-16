@@ -14,3 +14,4 @@
 #### git checkout main 
 #### git merge mydev
 # 4、代码推送到远端 git push
+![image](https://user-images.githubusercontent.com/51014383/141963289-2df1744d-9a7e-4cda-a500-a30c3ba697a5.png)
